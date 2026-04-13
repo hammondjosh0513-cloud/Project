@@ -11,3 +11,4 @@ Interactive website with JavaScript functionality.
 ---
 
 These projects demonstrate my understanding of frontend development.
+
