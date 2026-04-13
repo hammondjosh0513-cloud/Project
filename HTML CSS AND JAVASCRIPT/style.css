@@ -1,0 +1,50 @@
+:root{
+  --bg:#0b0f15;
+  --panel:#0f1720;
+  --muted:#9aa4b2;
+  --neon:#00d1ff;
+}
+
+/* baseline */
+html,body{height:100%}
+body{
+  margin:0;
+  background:var(--bg);
+  color:#e6eef6;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+  padding-top:70px;
+}
+
+/* navbar / hero */
+.bg-black{background:#070707!important}
+.hero{
+  background:linear-gradient(135deg,#071029 0%, rgba(9,12,20,0.6) 100%);
+  padding:80px 0;
+  margin-bottom:12px;
+  text-align:center;
+}
+.hero-compact{
+  background:linear-gradient(90deg,#06132b,#0b0b0c);
+  padding:60px 0;
+  text-align:center;
+}
+
+/* cards & panels */
+.card-dark{background:var(--panel); border:1px solid rgba(255,255,255,0.03); color:#e6eef6}
+.list-group-dark .list-group-item{background:transparent; border:1px solid rgba(255,255,255,0.03); color:#e6eef6}
+
+/* neon styles */
+.btn-neon{
+  background:linear-gradient(90deg,var(--neon),#0066ff);
+  border:0; color:#001; box-shadow:0 8px 24px rgba(0,209,255,0.08)
+}
+.border-neon{box-shadow:0 0 12px rgba(0,209,255,0.05); border:1px solid rgba(0,209,255,0.08)}
+.progress-bar.bg-neon{background:linear-gradient(90deg,var(--neon),#0066ff)}
+
+/* footer */
+.footer-dark{background:#0b0b0d; color:var(--muted);}
+
+/* small utilities */
+.text-neon{color:var(--neon)}
+.btn:focus{box-shadow:none}
+.card img{object-fit:cover}
