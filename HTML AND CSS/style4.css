@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER SECTION */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: white;
+  padding: 15px 40px;
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation links centered */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  color: #00bcd4;
+}
+
+/* Get Started button on far right */
+.btn {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #0097a7;
+}
+
+/* MAIN SECTION */
+main {
+  background: #f5f5f5;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+/* Text + image side by side */
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.text h1 {
+  font-size: 28px;
+  color: #222;
+  text-align: left;
+  max-width: 300px;
+}
+
+/* Image styling */
+.image img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Bottom row (Customers, Services, Clients) */
+.bottom-row {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.bottom-row div {
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}

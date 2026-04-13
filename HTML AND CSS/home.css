@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.signup-btn {
+  background: #e50914;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/9e44d2d1-3b61-4f58-8b46-dcd5b9fa3c59/e6c45f58-b223-4e46-9620-df78bfae16a7/NG-en-20230911-popsignuptwoweeks-perspective_alpha_website_large.jpg") no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  background: #e50914;
+  border: none;
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Trending */
+.trending {
+  padding: 40px;
+}
+
+.trending h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.row img {
+  width: 200px;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.row img:hover {
+  transform: scale(1.05);
+}
+
+/* Reasons */
+.reasons {
+  padding: 40px;
+}
+
+.reasons h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #222;
+  padding: 20px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* FAQ */
+.faq {
+  padding: 40px;
+}
+
+.faq h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  background: #333;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Footer */
+
+.hero-btn {
+  background: #e50914;
+  border: none;
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+footer {
+  background: rgba(0,0,0,0.9);
+  padding: 30px 40px;
+  font-size: 14px;
+  color: #757575;
+}
+
+footer a {
+  color: #757575;
+  text-decoration: none;
+}
+
+footer ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}

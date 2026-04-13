@@ -1,0 +1,74 @@
+/* Reset and font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Georgia', serif;
+}
+
+/* Page background – light gray tint like Medium */
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Centered white card */
+.join-container {
+  width: 380px;
+  text-align: center;
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main heading */
+.join-container h1 {
+  font-size: 2em;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+/* Buttons */
+    .signup-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.signup-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 280px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  background-color: white;
+  transition: background 0.2s ease;
+}
+
+.signup-btn:hover {
+  background-color: #f3f3f3;
+}
+ 
+/* Text below buttons */
+.terms, .signin-text {
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #666;
+  line-height: 1.5;
+}
+
+.terms a, .signin-text a {
+  color: #000;
+  text-decoration: underline;
+}
