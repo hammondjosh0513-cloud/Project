@@ -1,0 +1,191 @@
+/* Reset everything */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+  line-height: 1.4;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 90vh;
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/1b1b7bba-a3d9-4973-aef1-15c8d45a9712/cd81cbb1-6ef8-4e4f-853f-c3d31efcabd0/NG-en-20230828-popsignuptwoweeks-perspective_alpha_website_large.jpg")
+    no-repeat center center/cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  z-index: 2;
+}
+
+.logo {
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.signin-btn {
+  background: red;
+  color: #fff;
+  padding: 6px 16px;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-top: 150px;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+}
+
+.email-form input {
+  padding: 12px;
+  width: 280px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+
+.email-form button {
+  padding: 12px 20px;
+  background: red;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Trending */
+.trending {
+  padding: 40px 20px;
+}
+
+.trending h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.trending-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.trending-row img {
+  width: 180px;
+  border-radius: 4px;
+}
+
+/* FAQ */
+.faq {
+  background: #111;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.faq h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.faq ul {
+  list-style: none;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.faq li {
+  background: #333;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 3px;
+  text-align: left;
+}
+
+.faq form {
+  margin-top: 20px;
+}
+
+.faq input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 3px;
+}
+
+.faq button {
+  padding: 10px 15px;
+  background: red;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  background: #000;
+  color: #777;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer .links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.footer .links a {
+  color: #777;
+  margin: 8px 12px;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.footer select {
+  margin: 20px 0;
+  padding: 6px;
+  background: #000;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 3px;
+}
